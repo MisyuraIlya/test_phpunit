@@ -2,13 +2,18 @@
 	"name": "php-actions/example-phpunit",
 	"description": "Example project using php-actions/phpunit",
 
+	"require": {
+		"guzzlehttp/guzzle": "^7.0",
+		"ext-simplexml": "*",
+		"ext-soap": "*"
+	},
+
 	"require-dev": {
 		"ext-curl": "*",
 		"ext-dom": "*",
 		"ext-json": "*",
 		"ext-sqlite3": "*",
-		"phpunit/phpunit": "9.*",
-		"guzzlehttp/guzzle": "^7.0"
+		"phpunit/phpunit": "9.*"
 	},
 	"autoload": {
 		"psr-4": {
