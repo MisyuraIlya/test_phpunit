@@ -2,9 +2,7 @@
 	"name": "php-actions/example-phpunit",
 	"description": "Example project using php-actions/phpunit",
 	"require": {
-		"guzzlehttp/guzzle": "^7.0",
-		"ext-simplexml": "*",
-		"ext-soap": "*"
+		"guzzlehttp/guzzle": "^7.0"
 	},
 	"require-dev": {
 		"ext-curl": "*",
@@ -18,11 +16,6 @@
 			"App\\": "src"
 		}
 	},
-	"authors": [
-		{
-			"name": "Ilya"
-		}
-	],
 	"autoload-dev": {
 		"psr-4": {
 			"App\\Test\\": "test"
